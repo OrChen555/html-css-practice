@@ -66,19 +66,36 @@
     .text {
       width: 45%;
       height: 100%;
-      text-align: left ;
+      text-align: left;
     }
 
-    .title{
-       font-weight: bold;
-       font-size: 28px;
-      margin-top:20px;
-
-    }
-    .sub-title{
+    .title {
+      font-weight: bold;
+      font-size: 28px;
       margin-top: 20px;
-       font-size:12px;
-      
+
+    }
+
+    .sub-title {
+      margin-top: 20px;
+      font-size: 12px;
+
+
+    }
+
+    .line-1 {
+      display: flex;
+      flex-direction: row;
+      font-size: 10px;
+      margin-top: 10px;
+      align-items: center;
+    }
+
+    .text-1 {
+      display: flex;
+      align-items: center;
+      text-align: end;
+      margin-left: 7px;
     }
   </style>
 </head>
@@ -89,8 +106,26 @@
     <div class="grey-ground">
       <div class="white-ground">
         <div class="text">
-           <div class="title"> Stay updated!</div>
-           <div class="sub-title"> Join 60,000+ product managers receiving monthly updates on:</div>
+          <div class="title"> Stay updated!</div>
+          <div class="sub-title"> Join 60,000+ product managers receiving monthly updates on:</div>
+          <div class="line-1">
+            <img src=assets\images\icon-list.svg>
+            <div class="text-1">
+              Product discovery and building what matters
+            </div>
+          </div>
+          <div class="line-1">
+            <img src=assets\images\icon-list.svg>
+            <div class="text-1">
+              Measuring to ensure updates are a success
+            </div>
+          </div>
+          <div class="line-1">
+            <img src=assets\images\icon-list.svg>
+            <div class="text-1">
+              And much more!
+            </div>
+          </div>
         </div>
         <div class="photo">
           <img class="photo-item" src=assets\images\illustration-sign-up-desktop.svg>
