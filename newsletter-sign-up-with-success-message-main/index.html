@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
 
-    .page{
-        display: flex;
-        align-items: center;
-        justify-content: center; 
-        height: 100vh;           
-        width: 100vw;
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .page {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
 
     }
-    
-    .grey-ground{
+
+    .grey-ground {
       display: flex;
-      flex-direction: column;
       background-color: #36384D;
       justify-content: center;
       align-items: center;
@@ -32,37 +39,58 @@
       height: 80vh;
     }
 
-      .white-ground{
+    .white-ground {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      justify-content: space-around;
       background-color: white;
-      justify-content: center;
       align-items: center;
       width: 30vw;
-      height: 60vh;
+      height: 40vh;
       border-radius: 12px;
-      }
+      padding: 15px;
+    }
 
 
+    .photo {
+      width: 45%;
+      height: 100%;
+    }
 
-    
+    .photo-item {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .text {
+      width: 45%;
+      height: 100%;
+    }
   </style>
 </head>
+
 <body>
 
-  <!-- Sign-up form start -->
-  <div class ="page">
+  <div class="page">
     <div class="grey-ground">
       <div class="white-ground">
+        <div class="text">
+          
+        </div>
+        <div class="photo">
+          <img class="photo-item" src=assets\images\illustration-sign-up-desktop.svg>
+        </div>
 
       </div>
     </div>
   </div>
 
-  
+
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
 </body>
+
 </html>
